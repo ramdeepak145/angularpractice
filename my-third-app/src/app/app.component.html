@@ -1,0 +1,17 @@
+<div class="container">
+  <app-cockpit
+    (serverCreated)="onServerAdded($event)"
+    (blueprintCreated)="onBlueprintAdded($event)"
+    ></app-cockpit>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-serve-element
+        *ngFor="let serverElement of serverElements"
+        [srvElement]="serverElement">
+      </app-serve-element>
+      <button class="btn btn-danger"
+      (click)="onDestroyFirst()">Destroy First Element</button>
+    </div>
+  </div>
+</div>
