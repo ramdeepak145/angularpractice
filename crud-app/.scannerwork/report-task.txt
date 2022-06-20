@@ -1,0 +1,7 @@
+organization=ramdeepak145
+projectKey=ramdeepak145_sonar-crud-app
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.29762
+dashboardUrl=https://sonarcloud.io/dashboard?id=ramdeepak145_sonar-crud-app
+ceTaskId=AYFtnAwdYc1VxCR5-v1B
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYFtnAwdYc1VxCR5-v1B
